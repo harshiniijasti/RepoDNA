@@ -30,7 +30,7 @@ export default function Page() {
       setError('')
 
       const response = await fetch(
-        `http://127.0.0.1:8000/github/analyze?repo_url=${encodeURIComponent(
+        `${process.env.NEXT_PUBLIC_API_URL}/github/analyze?repo_url=${encodeURIComponent(
           url
         )}`
       )
@@ -65,7 +65,10 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header onReset={handleReset} showReset={analyzeState !== 'landing'} />
+      <Header
+        onReset={handleReset}
+        showReset={analyzeState !== 'landing'}
+      />
 
       {analyzeState === 'landing' && (
         <LandingPage onAnalyze={handleAnalyze} />
