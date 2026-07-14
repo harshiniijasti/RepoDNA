@@ -53,7 +53,8 @@ RepoDNA is a GitHub repository analysis platform that helps developers quickly u
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/8bd64e53-a465-4b77-a303-1f531f5cd8a8" />
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/28bf4381-67fe-42e4-b7a9-d49d825fa7ad" />
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/91004940-472e-49f5-963d-0ea4cf92c145" />
-<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/41ec9600-2481-4f41-9cb1-ef7e6a1f9ff9" />
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/568193fa-2f0a-4c12-b1f2-9a2199e12a79" />
+
 
 ---
 
