@@ -5,11 +5,12 @@ from app.routes.github import router as github_router
 app = FastAPI(
     title="RepoDNA API",
     version="1.0.0",
-    description="Backend API for RepoDNA"
+    description="Backend API for RepoDNA",
 )
 
 origins = [
     "http://localhost:3000",
+    "https://repo-dna.vercel.app",
 ]
 
 app.add_middleware(
@@ -22,8 +23,7 @@ app.add_middleware(
 
 app.include_router(github_router)
 
+
 @app.get("/")
 def root():
-    return {
-        "message": "RepoDNA Backend Running 🚀"
-    }
+    return {"message": "RepoDNA Backend Running 🚀"}
