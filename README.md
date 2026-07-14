@@ -39,20 +39,6 @@ RepoDNA is a GitHub repository analysis platform that helps developers quickly u
 
 ---
 
-## 📂 Project Structure
-
-```
-RepoDNA/
-│
-├── frontend/          # Next.js application
-│
-├── backend/           # FastAPI backend
-│
-└── README.md
-```
-
----
-
 ## 🚀 Live Demo --  https://repo-dna.vercel.app
 
 **Frontend**
@@ -62,48 +48,6 @@ RepoDNA/
 > https://repodna-api.onrender.com
 
 ---
-
-### Backend
-
-```bash
-cd backend
-
-python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
-```
-
-Backend runs on
-
-```
-http://127.0.0.1:8000
-```
-
----
-
-### Frontend
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-Frontend runs on
-
-```
-http://localhost:3000
-```
-
----
-
 ## 📷 Screenshots
 
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/8bd64e53-a465-4b77-a303-1f531f5cd8a8" />
